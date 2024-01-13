@@ -23,6 +23,12 @@ public class CalculatorSteps {
 		result = calculadora.add(num1, num2);
 		//System.out.println("resultado" + result);
 	}
+
+	@When("I sub {int} and {int}")
+	public void I_sub_two_numbers(int num1, int num2) {
+		result = calculadora.subtract(num1, num2);
+		//System.out.println("resultado" + result);
+	}
 	
 	@Then("the result should be {int}")
 	public void the_result_should_be(int num1) {
