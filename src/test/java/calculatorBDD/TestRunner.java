@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
     features = "src/test/resources",
     glue = "calculatorBDD.steps",
     plugin = {"pretty", "html:target/cucumber-reports"},
-    tags = "@test1"
+    tags = "@TestDivision"
 )
 public class TestRunner {
 
