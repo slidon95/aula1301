@@ -2,7 +2,6 @@ package calculatorBDD.steps;
 
 import org.junit.Assert;
 
-import Aula_1.calculator;
 import aula1101.Calculator;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -20,7 +19,7 @@ public class CalculatorSteps {
 	
 	@When("I add {int} and {int}")
 	public void I_add_twonumbers(int num1, int num2){
-		result = calculator.add(num1,num2);
+		result = calculadora.add(num1,num2);
 	}
 		
 	@When("I sub {int} and {int}")
